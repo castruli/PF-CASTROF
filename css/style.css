@@ -18,7 +18,7 @@
 }
 
 header{
-        background-image: url(../multimedia/LOGO.JPG);
+        background-image: url("../multimedia/LOGO.JPG");
         background-repeat: no-repeat;
         background-position: right;
         color: var(--primary-color);
@@ -268,5 +268,4 @@ header{
                 height:auto;
                 width: auto;
         }
-      
 }
