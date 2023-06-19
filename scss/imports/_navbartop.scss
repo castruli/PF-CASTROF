@@ -1,0 +1,13 @@
+.bg-nav-initial{
+    background-color:$first-color;
+}
+@media (max-width: 425px){
+    .bg-nav-initial{ 
+         margin-bottom: 2vh;
+    }
+}
+@media (max-width: 375px){
+    .bg-nav-initial{ 
+         margin-bottom: 2vh;
+    }
+}

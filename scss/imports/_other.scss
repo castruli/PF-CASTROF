@@ -1,0 +1,24 @@
+@media (max-width: 1440px){   
+    p{
+        font-size: 2vh;
+    }
+}
+@media (max-width: 768px){
+    form.d-flex{ 
+        flex-direction: column;              
+    }
+    p{
+        font-size: 2vh;
+    }           
+}      
+@media (max-width: 425px) {
+    p{
+        font-size: 1.5vh;
+    }
+ 
+}
+@media (max-width: 375px){   
+    p{
+        font-size: 0.6em;
+    }
+}
