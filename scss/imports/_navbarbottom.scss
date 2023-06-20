@@ -1,11 +1,11 @@
+//configuracion navbar fin de pagina//
+
 .bg-nav-final{
     background-color: $first-color;
 }
 .bg-custom{
     background-color: $second-color;
 }
-
-
 @media (max-width: 425px) {
     .btn.btn-primary{
         height:auto;
