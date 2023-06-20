@@ -1,0 +1,19 @@
+//utilizacion de hover//
+nav{
+    ul{
+        a:hover{
+               font-weight: bold;      
+        }
+    }
+}
+main{
+    h2:hover{
+        font-weight: bolder;
+    }
+}
+
+.btn.btn-primary:hover{
+    background-color: $first-color;
+    color: $second-color;
+}
+

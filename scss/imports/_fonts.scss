@@ -4,7 +4,15 @@
 } 
 @font-face {
     font-family: "Poppins Italic";
-    src: url("../fonts/Poppins/Poppins-BlackItalic.ttf");                                                                
+    src: url("../../fonts/Poppins/Poppins-LightItalic.ttf");                                                                
+}
+@font-face{
+    font-family: "Poppins ThinItalic";
+    src: url("../../fonts/Poppins/Poppins-ThinItalic.ttf")
+}
+@font-face{
+    font-family: "Poppins Thin";
+    src: url("../../fonts/Poppins/Poppins-Thin.ttf")
 }
 * {
     font-family: "Poppins";
