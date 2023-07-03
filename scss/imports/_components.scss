@@ -1,0 +1,37 @@
+//paleta de colores//
+
+$first-color: #07284a;
+$second-color: #a2b4bb;
+$third-color: rgb(220, 230, 245);
+
+//estilos de fuente//
+
+@font-face { 
+    font-family: "Poppins"; 
+    src: url("../fonts/Poppins/Poppins-Light.ttf"); 
+} 
+@font-face {
+    font-family: "Poppins Italic";
+    src: url("../../fonts/Poppins/Poppins-LightItalic.ttf");                                                                
+}
+@font-face{
+    font-family: "Poppins ThinItalic";
+    src: url("../../fonts/Poppins/Poppins-ThinItalic.ttf")
+}
+@font-face{
+    font-family: "Poppins Thin";
+    src: url("../../fonts/Poppins/Poppins-Thin.ttf")
+}
+* {
+    font-family: "Poppins";
+}
+//configuración multimedia + responsive mobile//
+
+.logo{
+    width: 24px;
+}
+#video{
+    height: 50%;
+    width: 50%;
+    padding: 12px;
+}

@@ -28,79 +28,64 @@
   padding: 12px;
 }
 
+nav ul a:hover {
+  font-weight: bold;
+}
+
+main h2:hover {
+  font-weight: bolder;
+}
+
+.btn.btn-primary:hover {
+  background-color: #07284a;
+  color: #a2b4bb;
+}
+
+.botton-final:hover {
+  background-color: #07284a;
+  color: #a2b4bb;
+}
+
 @media (max-width: 1440px) {
-  figcaption {
-    font-size: 2.5vh;
-    margin-left: 2vh;
-    margin-right: 2vh;
+  p {
+    font-size: 2vh;
   }
 }
 @media (max-width: 768px) {
-  .center {
-    margin: 5vh 25% 5vh 25%;
-  }
-  figcaption {
-    font-size: 2vh;
-    margin-left: 2vh;
-    margin-right: 2vh;
-  }
-  .row figcaption {
-    text-align: center;
-    width: 100;
-    padding: 0;
-    margin: 0;
+  p {
+    font-size: 12px;
   }
 }
 @media (max-width: 425px) {
-  figcaption {
+  p {
     font-size: 12px;
-    padding: 1vh;
-  }
-  video {
-    display: none;
+    margin-bottom: 2px;
   }
   img {
-    height: 50%;
-    width: 50%;
-  }
-  .center {
-    margin: 0;
+    margin-top: 6px;
   }
 }
 @media (max-width: 375px) {
-  figcaption {
+  .producto p {
     font-size: 12px;
-    padding-bottom: 1vh;
+    text-align: center;
+    margin-bottom: 2px;
+    width: 100%;
   }
-  video {
-    display: none;
-  }
-  img {
-    height: 50%;
-    width: 50%;
-  }
-  .center {
-    margin: 0%;
+  .producto img {
+    margin-top: 6px;
   }
 }
-header {
-  background-image: url("../multimedia/LOGO.JPG");
-  background-repeat: no-repeat;
-  background-position: right;
-  color: #07284a;
-  text-align: center;
+.btn-practicas {
+  background-color: #07284a;
+  color: #a2b4bb;
 }
 
-@media (max-width: 425px) {
-  header {
-    background-image: none;
-  }
+.btn-productos {
+  background-color: #07284a;
+  color: #a2b4bb;
 }
-@media (max-width: 375px) {
-  header {
-    background-image: none;
-  }
-}
+
 h1 {
   font-weight: bolder;
 }
@@ -197,6 +182,79 @@ h1 {
     padding: 0;
   }
 }
+@media (max-width: 1440px) {
+  figcaption {
+    font-size: 2.5vh;
+    margin-left: 2vh;
+    margin-right: 2vh;
+  }
+}
+@media (max-width: 768px) {
+  .center {
+    margin: 5vh 25% 5vh 25%;
+  }
+  figcaption {
+    font-size: 2vh;
+    margin-left: 2vh;
+    margin-right: 2vh;
+  }
+  .row figcaption {
+    text-align: center;
+    width: 100;
+    padding: 0;
+    margin: 0;
+  }
+}
+@media (max-width: 425px) {
+  figcaption {
+    font-size: 12px;
+    padding: 1vh;
+  }
+  video {
+    display: none;
+  }
+  img {
+    height: 50%;
+    width: 50%;
+  }
+  .center {
+    margin: 0;
+  }
+}
+@media (max-width: 375px) {
+  figcaption {
+    font-size: 12px;
+    padding-bottom: 1vh;
+  }
+  video {
+    display: none;
+  }
+  img {
+    height: 50%;
+    width: 50%;
+  }
+  .center {
+    margin: 0%;
+  }
+}
+header {
+  background-image: url("../multimedia/LOGO.JPG");
+  background-repeat: no-repeat;
+  background-position: right;
+  color: #07284a;
+  text-align: center;
+}
+
+@media (max-width: 425px) {
+  header {
+    background-image: none;
+  }
+}
+@media (max-width: 375px) {
+  header {
+    background-image: none;
+  }
+}
 .bg-nav-initial {
   background-color: #07284a;
 }
@@ -280,63 +338,6 @@ h1 {
   .bg-nav-initial a {
     font-size: 14px;
   }
-}
-@media (max-width: 1440px) {
-  p {
-    font-size: 2vh;
-  }
-}
-@media (max-width: 768px) {
-  p {
-    font-size: 12px;
-  }
-}
-@media (max-width: 425px) {
-  p {
-    font-size: 12px;
-    margin-bottom: 2px;
-  }
-  img {
-    margin-top: 6px;
-  }
-}
-@media (max-width: 375px) {
-  .producto p {
-    font-size: 12px;
-    text-align: center;
-    margin-bottom: 2px;
-    width: 100%;
-  }
-  .producto img {
-    margin-top: 6px;
-  }
-}
-.btn-practicas {
-  background-color: #07284a;
-  color: #a2b4bb;
-}
-
-.btn-productos {
-  background-color: #07284a;
-  color: #a2b4bb;
-}
-
-nav ul a:hover {
-  font-weight: bold;
-}
-
-main h2:hover {
-  font-weight: bolder;
-}
-
-.btn.btn-primary:hover {
-  background-color: #07284a;
-  color: #a2b4bb;
-}
-
-.botton-final:hover {
-  background-color: #07284a;
-  color: #a2b4bb;
 }
 
 /*# sourceMappingURL=style.css.map */

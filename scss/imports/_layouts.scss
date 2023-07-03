@@ -1,0 +1,126 @@
+//configuración header//
+
+header{
+    background-image: url("../multimedia/LOGO.JPG");
+    background-repeat: no-repeat;
+    background-position: right;
+    color: $first-color;
+    text-align: center;
+}
+
+//configuracion header resposive//
+@media (max-width: 425px) {
+    header{
+        background-image: none;
+    }
+}
+@media (max-width: 375px){
+    header{
+        background-image: none;
+    }
+}
+
+//configuracion navbar superior//
+.bg-nav-initial{
+    background-color:$first-color;
+    a{
+        color: $third-color;
+        font-size: 2vh;}
+    .text-color{
+            font-size: 1.5vh;    
+        } 
+    .botton-final{
+        background-color: white;
+        }            
+}
+.collapse-initial{
+    background-color: rgb(228, 232, 253);
+}
+
+//configuracion navbar inferior//
+.bg-nav-final{
+    background-color:$first-color;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-bottom: 24px;
+    a{
+        color: $third-color;
+    }
+    .botton-final{
+        background-color: white;  
+    }   
+}
+
+//configuracion navbar responsive//
+
+@media (min-width: 1024px){
+    .bg-nav-final{
+        a{
+            font-size: 18px;
+            h6{
+                font-size: 18px;
+            }
+        }
+    }
+    .bg-nav-initial{
+        a{
+            font-size: 24px;
+        }
+    }
+}
+@media (max-width: 768px){
+    .collapse-final{
+        display: none;
+    }
+    .bg-nav-final{
+        a{
+            font-size: 12px;
+            h6{
+                font-size: 12px;
+            }
+        }
+    }
+}
+@media (max-width: 425px){
+    
+    .collapse-final{
+        display: none;
+    }
+    ul{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+    footer{
+        display: none;
+    }
+    .bg-nav-final{
+        a{
+            h6{
+                font-size: 12px;
+            }
+        }
+    }   
+}
+@media (max-width: 375px){
+ 
+    .collapse-final{
+        display: none;
+    }
+    footer{
+        display: none;
+    
+    }
+    ul{
+        display: flex;
+        flex-direction: column;       
+    }   
+    .bg-nav-initial{
+        a{
+            font-size: 14px;
+        }
+    }
+  
+    
+
+}
