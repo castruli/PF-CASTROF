@@ -6,9 +6,10 @@
 #video{
     height: 50%;
     width: 50%;
+    padding: 12px;
 }
 @media (max-width: 1440px){
-    
+  
     figcaption{
             font-size: 2.5vh;
             margin-left: 2vh;

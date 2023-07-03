@@ -25,6 +25,7 @@
 #video {
   height: 50%;
   width: 50%;
+  padding: 12px;
 }
 
 @media (max-width: 1440px) {
@@ -199,52 +200,59 @@ h1 {
 .bg-nav-initial {
   background-color: #07284a;
 }
-
-@media (max-width: 425px) {
-  .bg-nav-initial {
-    margin-bottom: 2vh;
-  }
+.bg-nav-initial a {
+  color: rgb(220, 230, 245);
+  font-size: 2vh;
 }
-@media (max-width: 375px) {
-  .bg-nav-initial {
-    margin-bottom: 2vh;
-  }
+.bg-nav-initial .text-color {
+  font-size: 1.5vh;
 }
-.bg-nav-initial {
-  background-color: #07284a;
+.bg-nav-initial .botton-final {
+  background-color: white;
 }
 
-@media (max-width: 425px) {
-  .bg-nav-initial {
-    margin-bottom: 2vh;
-  }
+.collapse-initial {
+  background-color: rgb(228, 232, 253);
 }
-@media (max-width: 375px) {
-  .bg-nav-initial {
-    margin-bottom: 2vh;
-  }
-}
+
 .bg-nav-final {
   background-color: #07284a;
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-bottom: 24px;
+}
+.bg-nav-final a {
+  color: rgb(220, 230, 245);
+}
+.bg-nav-final .botton-final {
+  background-color: white;
 }
 
-.bg-custom {
-  background-color: #a2b4bb;
-}
-
-@media (max-width: 425px) {
-  .btn.btn-primary {
-    height: auto;
-    width: auto;
-  }
-  .navbar-items {
+@media (max-width: 1024px) {
+  .bg-nav-final a {
     font-size: 12px;
-    margin: 0 5% 0 0%;
   }
-  .navbar-nav {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
+  .bg-nav-final a h6 {
+    font-size: 12px;
+  }
+  .bg-nav-initial a {
+    font-size: 18px;
+  }
+}
+@media (max-width: 768px) {
+  .collapse-final {
+    display: none;
+  }
+  .bg-nav-final a {
+    font-size: 12px;
+  }
+  .bg-nav-final a h6 {
+    font-size: 12px;
+  }
+}
+@media (max-width: 425px) {
+  .collapse-final {
+    display: none;
   }
   ul {
     display: flex;
@@ -254,26 +262,20 @@ h1 {
   footer {
     display: none;
   }
+  .bg-nav-final a h6 {
+    font-size: 12px;
+  }
 }
 @media (max-width: 375px) {
-  .navbar-items {
-    font-size: 12px;
-    margin: 0 2% 0 2%;
-  }
-  ul {
-    display: flex;
-    flex-direction: column;
+  .collapse-final {
+    display: none;
   }
   footer {
     display: none;
   }
-  form.d-flex {
-    flex-direction: row;
-    width: 75%;
-  }
-  .btn.btn-primary {
-    height: 50%;
-    width: 50%;
+  ul {
+    display: flex;
+    flex-direction: column;
   }
 }
 @media (max-width: 1440px) {
@@ -317,6 +319,11 @@ main h2:hover {
 }
 
 .btn.btn-primary:hover {
+  background-color: #07284a;
+  color: #a2b4bb;
+}
+
+.botton-final:hover {
   background-color: #07284a;
   color: #a2b4bb;
 }
