@@ -1,6 +1,4 @@
-//configuracion navbar//
-
-//superior//
+//configuracion navbar superior//
 
 .bg-nav-initial{
     background-color:$first-color;
@@ -18,7 +16,7 @@
     background-color: rgb(228, 232, 253);
 }
 
-//inferior + footer //
+//configuracion navbar inferior//
 .bg-nav-final{
     background-color:$first-color;
     padding-left: 5%;
@@ -36,18 +34,18 @@
 
 //configuracion responsive//
 
-@media (max-width: 1024px){
+@media (min-width: 1024px){
     .bg-nav-final{
         a{
-            font-size: 12px;
+            font-size: 18px;
             h6{
-                font-size: 12px;
+                font-size: 18px;
             }
         }
     }
     .bg-nav-initial{
         a{
-            font-size: 18px;
+            font-size: 24px;
         }
     }
 }
@@ -66,9 +64,7 @@
 }
 
 @media (max-width: 425px){
-    .bg-nav-initial{ 
     
-    }
     .collapse-final{
         display: none;
     }
@@ -101,6 +97,11 @@
         display: flex;
         flex-direction: column;       
     }   
+    .bg-nav-initial{
+        a{
+            font-size: 14px;
+        }
+    }
   
     
 

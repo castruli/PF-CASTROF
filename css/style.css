@@ -53,7 +53,7 @@
 }
 @media (max-width: 425px) {
   figcaption {
-    font-size: 2vh;
+    font-size: 12px;
     padding: 1vh;
   }
   video {
@@ -69,7 +69,7 @@
 }
 @media (max-width: 375px) {
   figcaption {
-    font-size: 0.6em;
+    font-size: 12px;
     padding-bottom: 1vh;
   }
   video {
@@ -228,15 +228,15 @@ h1 {
   background-color: white;
 }
 
-@media (max-width: 1024px) {
+@media (min-width: 1024px) {
   .bg-nav-final a {
-    font-size: 12px;
+    font-size: 18px;
   }
   .bg-nav-final a h6 {
-    font-size: 12px;
+    font-size: 18px;
   }
   .bg-nav-initial a {
-    font-size: 18px;
+    font-size: 24px;
   }
 }
 @media (max-width: 768px) {
@@ -276,6 +276,9 @@ h1 {
   ul {
     display: flex;
     flex-direction: column;
+  }
+  .bg-nav-initial a {
+    font-size: 14px;
   }
 }
 @media (max-width: 1440px) {
