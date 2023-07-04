@@ -90,6 +90,10 @@ h1 {
   font-weight: bolder;
 }
 
+.bg-custom {
+  background: linear-gradient(to left, #07284a, #a2b4bb, rgb(220, 230, 245));
+}
+
 @media (max-width: 1440px) {
   h1 {
     font-size: 5vh;

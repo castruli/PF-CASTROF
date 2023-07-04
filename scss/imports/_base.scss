@@ -75,6 +75,10 @@ h1{
     font-weight: bolder;
 }
 
+.bg-custom{
+    background: linear-gradient(to left, $first-color, $second-color, $third-color);
+}
+
 
 @media (max-width: 1440px){
     h1{
