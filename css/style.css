@@ -272,6 +272,10 @@ header {
 .bg-nav-initial .botton-final {
   background-color: white;
 }
+.bg-nav-initial .menu {
+  font-size: 20px;
+  padding-left: 10%;
+}
 
 .collapse-initial {
   background-color: rgb(228, 232, 253);
@@ -299,6 +303,9 @@ header {
   }
   .bg-nav-initial a {
     font-size: 24px;
+  }
+  .menu {
+    display: none;
   }
 }
 @media (max-width: 768px) {
