@@ -12,9 +12,6 @@ main{
         transition: font-weight 2s, font-size 2s;
     }
 }
-
-
-
 main{
     h2:hover{
         font-weight: bolder;
@@ -64,7 +61,6 @@ main{
         }
         }
 }
-
 
 //configuracion botones //
 @mixin botones{

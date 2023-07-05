@@ -264,22 +264,21 @@ header {
     background-image: none;
   }
 }
-.bg-nav-initial {
+.bg-nav-initial, .bg-nav-final {
   background-color: #07284a;
 }
-.bg-nav-initial a {
+.bg-nav-initial a, .bg-nav-final a {
   color: rgb(220, 230, 245);
   font-size: 2vh;
 }
-.bg-nav-initial .text-color {
+.bg-nav-initial .text-color, .bg-nav-final .text-color {
   font-size: 1.5vh;
 }
-.bg-nav-initial .botton-final {
+.bg-nav-initial .botton-final, .bg-nav-final .botton-final {
   background-color: white;
 }
-.bg-nav-initial .menu {
+.bg-nav-initial .menu, .bg-nav-final .menu {
   font-size: 20px;
-  padding-left: 10%;
 }
 
 .collapse-initial {
@@ -287,7 +286,6 @@ header {
 }
 
 .bg-nav-final {
-  background-color: #07284a;
   padding-left: 5%;
   padding-right: 5%;
   padding-bottom: 24px;
@@ -306,7 +304,7 @@ header {
   .bg-nav-final a h6 {
     font-size: 18px;
   }
-  .bg-nav-initial a {
+  .bg-nav-initial a, .bg-nav-final a {
     font-size: 24px;
   }
   .menu {
@@ -351,7 +349,7 @@ header {
     display: flex;
     flex-direction: column;
   }
-  .bg-nav-initial a {
+  .bg-nav-initial a, .bg-nav-final a {
     font-size: 14px;
   }
 }

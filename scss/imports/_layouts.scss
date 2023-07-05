@@ -35,7 +35,6 @@ header{
         } 
     .menu{
         font-size: 20px;
-        padding-left: 10%;
     }          
 }
 .collapse-initial{
@@ -45,7 +44,7 @@ header{
 
 //configuracion navbar inferior//
 .bg-nav-final{
-    background-color:$first-color;
+    @extend .bg-nav-initial;
     padding-left: 5%;
     padding-right: 5%;
     padding-bottom: 24px;
