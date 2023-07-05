@@ -32,8 +32,13 @@ nav ul a:hover {
   font-weight: bold;
 }
 
+main h2 {
+  transition: font-weight 2s, font-size 2s;
+}
+
 main h2:hover {
   font-weight: bolder;
+  font-size: 24px;
 }
 
 .btn.btn-primary:hover {
