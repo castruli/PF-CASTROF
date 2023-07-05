@@ -59,23 +59,32 @@ header{
 //configuracion navbar responsive//
 
 @media (min-width: 1024px){
+  
+    .bg-nav-initial{
+        a{
+            font-size: 12px;
+        }
+    }
     .bg-nav-final{
         a{
-            font-size: 18px;
             h6{
-                font-size: 18px;
+                font-size: 12px;
+            }
+        }
+        div{
+            ul{
+                li{
+                    a{
+                        font-size: 12px;
+                    }
+                }
             }
         }
     }
-    .bg-nav-initial{
-        a{
-            font-size: 24px;
-        }
-    }
-
     .menu{
         display: none;
     }
+    
 }
 
 
@@ -132,6 +141,33 @@ header{
         }
     }
   
-    
+}
 
+//hover nav//
+nav{
+    ul{
+        a:hover{
+               font-weight: bold;      
+        }
+    }
+}
+//hover main//
+main{
+    h2{
+        transition: font-weight 2s, font-size 2s;
+    }
+}
+main{
+    h2:hover{
+        font-weight: bolder;
+        font-size: 24px;
+    }
+}
+.btn.btn-primary:hover{
+    background-color: $first-color;
+    color: $second-color;
+}
+.botton-final:hover{
+    background-color: $first-color;
+    color: $second-color;
 }

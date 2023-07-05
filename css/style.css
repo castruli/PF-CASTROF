@@ -28,29 +28,6 @@
   padding: 12px;
 }
 
-nav ul a:hover {
-  font-weight: bold;
-}
-
-main h2 {
-  transition: font-weight 2s, font-size 2s;
-}
-
-main h2:hover {
-  font-weight: bolder;
-  font-size: 24px;
-}
-
-.btn.btn-primary:hover {
-  background-color: #07284a;
-  color: #a2b4bb;
-}
-
-.botton-final:hover {
-  background-color: #07284a;
-  color: #a2b4bb;
-}
-
 @media (max-width: 1440px) {
   p {
     font-size: 2vh;
@@ -117,6 +94,7 @@ h1 {
   }
   h6 {
     font-size: 3vh;
+    color: black;
   }
 }
 @media (max-width: 768px) {
@@ -298,14 +276,14 @@ header {
 }
 
 @media (min-width: 1024px) {
-  .bg-nav-final a {
-    font-size: 18px;
+  .bg-nav-initial a, .bg-nav-final a {
+    font-size: 12px;
   }
   .bg-nav-final a h6 {
-    font-size: 18px;
+    font-size: 12px;
   }
-  .bg-nav-initial a, .bg-nav-final a {
-    font-size: 24px;
+  .bg-nav-final div ul li a {
+    font-size: 12px;
   }
   .menu {
     display: none;
@@ -352,6 +330,28 @@ header {
   .bg-nav-initial a, .bg-nav-final a {
     font-size: 14px;
   }
+}
+nav ul a:hover {
+  font-weight: bold;
+}
+
+main h2 {
+  transition: font-weight 2s, font-size 2s;
+}
+
+main h2:hover {
+  font-weight: bolder;
+  font-size: 24px;
+}
+
+.btn.btn-primary:hover {
+  background-color: #07284a;
+  color: #a2b4bb;
+}
+
+.botton-final:hover {
+  background-color: #07284a;
+  color: #a2b4bb;
 }
 
 /*# sourceMappingURL=style.css.map */

@@ -1,31 +1,3 @@
-//hover nav//
-nav{
-    ul{
-        a:hover{
-               font-weight: bold;      
-        }
-    }
-}
-//hover main//
-main{
-    h2{
-        transition: font-weight 2s, font-size 2s;
-    }
-}
-main{
-    h2:hover{
-        font-weight: bolder;
-        font-size: 24px;
-    }
-}
-.btn.btn-primary:hover{
-    background-color: $first-color;
-    color: $second-color;
-}
-.botton-final:hover{
-    background-color: $first-color;
-    color: $second-color;
-}
 
 //configuración textos//
 
@@ -103,6 +75,7 @@ h1{
     }
     h6{
     font-size: 3vh;
+    color: black;
     }
 }
 @media (max-width: 768px){
