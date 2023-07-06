@@ -62,29 +62,20 @@ header{
   
     .bg-nav-initial{
         a{
-            font-size: 12px;
+            font-size: 24px;
         }
     }
     .bg-nav-final{
         a{
+            font-size: 16px;
             h6{
-                font-size: 12px;
-            }
-        }
-        div{
-            ul{
-                li{
-                    a{
-                        font-size: 12px;
-                    }
-                }
+                font-size: 16px;
             }
         }
     }
     .menu{
         display: none;
     }
-    
 }
 
 

@@ -277,13 +277,13 @@ header {
 
 @media (min-width: 1024px) {
   .bg-nav-initial a, .bg-nav-final a {
-    font-size: 12px;
+    font-size: 24px;
+  }
+  .bg-nav-final a {
+    font-size: 16px;
   }
   .bg-nav-final a h6 {
-    font-size: 12px;
-  }
-  .bg-nav-final div ul li a {
-    font-size: 12px;
+    font-size: 16px;
   }
   .menu {
     display: none;
