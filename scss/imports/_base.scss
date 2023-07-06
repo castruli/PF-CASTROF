@@ -1,40 +1,5 @@
 
-//configuración textos//
-
-@media (max-width: 1440px){   
-    p{
-        font-size: 2vh;
-    }
-}
-@media (max-width: 768px){
-    p{
-        font-size: 12px;
-    }           
-}      
-@media (max-width: 425px) {
-    p{
-        font-size: 12px;
-        margin-bottom: 2px;
-    }
-    img{
-        margin-top: 6px;
-        }
-}
-@media (max-width: 375px){   
-    .producto{
-        p{
-        font-size: 12px;
-        text-align: center;
-        margin-bottom: 2px;
-        width: 100%;
-        }
-        img{
-        margin-top: 6px;
-        }
-        }
-}
-
-//configuracion botones //
+// configuracion botones //
 @mixin botones{
    background-color: $first-color;
    color: $second-color;
@@ -46,18 +11,16 @@
 .btn-productos{
     @include botones;
 }
-//configuración titulos //
 
-h1{
-    font-weight: bolder;
-}
-
+// configuracion background categorias productos //
 .bg-custom{
     background: linear-gradient(to left, $first-color, $second-color, $third-color);
 }
 
+// configuraciones responsive //
 
 @media (max-width: 1440px){
+// configuracion titulos //   
     h1{
         font-size: 5vh;
         padding: 4vh;
@@ -65,26 +28,32 @@ h1{
     h2{
         font-size: 5vh;
     }
-    ul h2{
-    font-size: 3.5vh;
-    }
     h3{
         font-size: 4vh;
         text-align: center;
         margin-top: 2vh;
     }
     h6{
-    font-size: 3vh;
-    color: black;
+        font-size: 3vh;
+        color: black;
+    }
+// configuracion párrafos //
+    p{
+        font-size: 2vh;
+    }
+// configuracion epígrafes img //    
+    figcaption{
+        margin-left: 2vh;
+        font-size: 2.5vh;
+        margin-right: 2vh;
     }
 }
 @media (max-width: 768px){
+
+// configuracion titulos //    
     h1{
         font-size: 5vh;
         padding: 4vh;
-    }
-    ul h2{
-        font-size: 3.5vh;
     }
     h3{
         font-size: 4vh;
@@ -97,8 +66,28 @@ h1{
     h6{
         font-size: 2vh;
     }
+// configuracion epígrafes //
+    .center{
+        margin: 5vh 25% 5vh 25%
+    }
+    figcaption{
+        font-size: 2vh;
+        margin-left: 2vh;
+        margin-right: 2vh;
+}
+    .row figcaption{
+        text-align: center;
+        width: 100;
+        padding: 0;
+        margin: 0;
+}
+// configuracion textos // 
+    p{
+        font-size: 12px;
+    }  
 }
 @media (max-width: 425px) {
+// configuracion titulos //
     h1{
         font-size: 4vh;
         padding: 2vh;
@@ -107,9 +96,7 @@ h1{
         font-size: 4vh;
         margin: 0;
     }
-    ul h2{
-        font-size: 3vh;
-    }
+  
     h3{
         font-size: 3vh;
         margin: 1vh 0 1vh 0; 
@@ -124,8 +111,32 @@ h1{
         margin: 0;
         padding: 0;
     }
+
+// configuracion epigrafes //
+    figcaption{
+        font-size: 12px;
+        padding: 1vh;
+    }
+    video{
+        display: none;
+    }
+    img{
+        height: 50%;
+        width: 50%;
+        margin-top: 6px;
+    }
+    .center{
+        margin: 0;
+    }
+
+// configuracion de textos // 
+    p{
+        font-size: 12px;
+        margin-bottom: 2px;
+    }
 }
 @media (max-width: 375px){
+// configuracion titulos //    
     h1{
         font-size: 4vh;
         padding: 1em;
@@ -133,9 +144,6 @@ h1{
     h2{
         font-size: 4vh;
         margin: 0;
-    }
-    ul h2{
-        font-size: 3vh;
     }
     h3{
         font-size: 3vh;
@@ -150,49 +158,9 @@ h1{
         margin: 0;
         padding: 0;
     }
-}
 
-//configuracion epigrafes//
-@media (max-width: 1440px){
-    figcaption{
-            font-size: 2.5vh;
-            margin-left: 2vh;
-            margin-right: 2vh;
-    }
-}
-@media (max-width: 768px){
-    .center{
-        margin: 5vh 25% 5vh 25%
-    }
-    figcaption{
-        font-size: 2vh;
-        margin-left: 2vh;
-        margin-right: 2vh;
-    }
-    .row figcaption{
-        text-align: center;
-        width: 100;
-        padding: 0;
-        margin: 0;
-    }
-}
-@media (max-width: 425px) {
-    figcaption{
-        font-size: 12px;
-        padding: 1vh;
-    }
-    video{
-        display: none;
-    }
-    img{
-        height: 50%;
-        width: 50%;
-    }
-    .center{
-        margin: 0;
-    }
-}
-@media (max-width: 375px){   
+// configuracion epigrafes //
+
     figcaption{
         font-size: 12px;
         padding-bottom: 1vh;
@@ -206,6 +174,20 @@ h1{
     }
     .center{
         margin: 0%;
+    }
+
+// configuracion de textos // 
+
+    .producto{
+        p{
+        font-size: 12px;
+        text-align: center;
+        margin-bottom: 2px;
+        width: 100%;
+        }
+        img{
+        margin-top: 6px;
+        }
     }
 }
 

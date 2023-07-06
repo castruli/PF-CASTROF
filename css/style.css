@@ -28,36 +28,6 @@
   padding: 12px;
 }
 
-@media (max-width: 1440px) {
-  p {
-    font-size: 2vh;
-  }
-}
-@media (max-width: 768px) {
-  p {
-    font-size: 12px;
-  }
-}
-@media (max-width: 425px) {
-  p {
-    font-size: 12px;
-    margin-bottom: 2px;
-  }
-  img {
-    margin-top: 6px;
-  }
-}
-@media (max-width: 375px) {
-  .producto p {
-    font-size: 12px;
-    text-align: center;
-    margin-bottom: 2px;
-    width: 100%;
-  }
-  .producto img {
-    margin-top: 6px;
-  }
-}
 .btn-practicas {
   background-color: #07284a;
   color: #a2b4bb;
@@ -66,10 +36,6 @@
 .btn-productos {
   background-color: #07284a;
   color: #a2b4bb;
-}
-
-h1 {
-  font-weight: bolder;
 }
 
 .bg-custom {
@@ -84,9 +50,6 @@ h1 {
   h2 {
     font-size: 5vh;
   }
-  ul h2 {
-    font-size: 3.5vh;
-  }
   h3 {
     font-size: 4vh;
     text-align: center;
@@ -96,14 +59,19 @@ h1 {
     font-size: 3vh;
     color: black;
   }
+  p {
+    font-size: 2vh;
+  }
+  figcaption {
+    margin-left: 2vh;
+    font-size: 2.5vh;
+    margin-right: 2vh;
+  }
 }
 @media (max-width: 768px) {
   h1 {
     font-size: 5vh;
     padding: 4vh;
-  }
-  ul h2 {
-    font-size: 3.5vh;
   }
   h3 {
     font-size: 4vh;
@@ -116,67 +84,6 @@ h1 {
   h6 {
     font-size: 2vh;
   }
-}
-@media (max-width: 425px) {
-  h1 {
-    font-size: 4vh;
-    padding: 2vh;
-  }
-  h2 {
-    font-size: 4vh;
-    margin: 0;
-  }
-  ul h2 {
-    font-size: 3vh;
-  }
-  h3 {
-    font-size: 3vh;
-    margin: 1vh 0 1vh 0;
-    text-align: center;
-  }
-  h4 {
-    font-size: 3vh;
-  }
-  h6 {
-    font-size: 1.5vh;
-    margin: 0;
-    padding: 0;
-  }
-}
-@media (max-width: 375px) {
-  h1 {
-    font-size: 4vh;
-    padding: 1em;
-  }
-  h2 {
-    font-size: 4vh;
-    margin: 0;
-  }
-  ul h2 {
-    font-size: 3vh;
-  }
-  h3 {
-    font-size: 3vh;
-    margin: 1vh 0 1vh 0;
-    text-align: center;
-  }
-  h4 {
-    font-size: 2vh;
-  }
-  h6 {
-    font-size: 0.5em;
-    margin: 0;
-    padding: 0;
-  }
-}
-@media (max-width: 1440px) {
-  figcaption {
-    font-size: 2.5vh;
-    margin-left: 2vh;
-    margin-right: 2vh;
-  }
-}
-@media (max-width: 768px) {
   .center {
     margin: 5vh 25% 5vh 25%;
   }
@@ -191,8 +98,32 @@ h1 {
     padding: 0;
     margin: 0;
   }
+  p {
+    font-size: 12px;
+  }
 }
 @media (max-width: 425px) {
+  h1 {
+    font-size: 4vh;
+    padding: 2vh;
+  }
+  h2 {
+    font-size: 4vh;
+    margin: 0;
+  }
+  h3 {
+    font-size: 3vh;
+    margin: 1vh 0 1vh 0;
+    text-align: center;
+  }
+  h4 {
+    font-size: 3vh;
+  }
+  h6 {
+    font-size: 1.5vh;
+    margin: 0;
+    padding: 0;
+  }
   figcaption {
     font-size: 12px;
     padding: 1vh;
@@ -203,12 +134,38 @@ h1 {
   img {
     height: 50%;
     width: 50%;
+    margin-top: 6px;
   }
   .center {
     margin: 0;
   }
+  p {
+    font-size: 12px;
+    margin-bottom: 2px;
+  }
 }
 @media (max-width: 375px) {
+  h1 {
+    font-size: 4vh;
+    padding: 1em;
+  }
+  h2 {
+    font-size: 4vh;
+    margin: 0;
+  }
+  h3 {
+    font-size: 3vh;
+    margin: 1vh 0 1vh 0;
+    text-align: center;
+  }
+  h4 {
+    font-size: 2vh;
+  }
+  h6 {
+    font-size: 0.5em;
+    margin: 0;
+    padding: 0;
+  }
   figcaption {
     font-size: 12px;
     padding-bottom: 1vh;
@@ -223,6 +180,15 @@ h1 {
   .center {
     margin: 0%;
   }
+  .producto p {
+    font-size: 12px;
+    text-align: center;
+    margin-bottom: 2px;
+    width: 100%;
+  }
+  .producto img {
+    margin-top: 6px;
+  }
 }
 header {
   background-image: url("../multimedia/LOGO.JPG");
@@ -232,16 +198,10 @@ header {
   text-align: center;
 }
 
-@media (max-width: 425px) {
-  header {
-    background-image: none;
-  }
+h1 {
+  font-weight: bolder;
 }
-@media (max-width: 375px) {
-  header {
-    background-image: none;
-  }
-}
+
 .bg-nav-initial, .bg-nav-final {
   background-color: #07284a;
 }
@@ -290,8 +250,8 @@ header {
   }
 }
 @media (max-width: 768px) {
-  .collapse-final {
-    display: none;
+  .bg-nav-initial a, .bg-nav-final a {
+    font-size: 18px;
   }
   .bg-nav-final a {
     font-size: 12px;
@@ -299,8 +259,14 @@ header {
   .bg-nav-final a h6 {
     font-size: 12px;
   }
+  .collapse-final {
+    display: none;
+  }
 }
 @media (max-width: 425px) {
+  header {
+    background-image: none;
+  }
   .collapse-final {
     display: none;
   }
@@ -317,6 +283,9 @@ header {
   }
 }
 @media (max-width: 375px) {
+  header {
+    background-image: none;
+  }
   .collapse-final {
     display: none;
   }

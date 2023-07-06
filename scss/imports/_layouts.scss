@@ -1,4 +1,4 @@
-//configuración header//
+// configuración header //
 
 header{
     background-image: url("../multimedia/LOGO.JPG");
@@ -7,21 +7,11 @@ header{
     color: $first-color;
     text-align: center;
 }
-
-//configuracion header resposive//
-@media (max-width: 425px) {
-    header{
-        background-image: none;
-    }
-}
-@media (max-width: 375px){
-    header{
-        background-image: none;
-    }
+h1{
+    font-weight: bolder;
 }
 
-
-//configuracion navbar superior//
+// configuracion navbar superior //
 .bg-nav-initial{
     background-color:$first-color;
     a{
@@ -41,8 +31,7 @@ header{
     background-color: rgb(228, 232, 253);
 }
 
-
-//configuracion navbar inferior//
+// configuracion navbar inferior //
 .bg-nav-final{
     @extend .bg-nav-initial;
     padding-left: 5%;
@@ -56,15 +45,16 @@ header{
     }   
 }
 
-//configuracion navbar responsive//
+// configuracion header + navbar responsive //
 
 @media (min-width: 1024px){
-  
+ // navegador top // 
     .bg-nav-initial{
         a{
             font-size: 24px;
         }
     }
+// navegador bottom //
     .bg-nav-final{
         a{
             font-size: 16px;
@@ -77,12 +67,14 @@ header{
         display: none;
     }
 }
-
-
 @media (max-width: 768px){
-    .collapse-final{
-        display: none;
+// navegador top //   
+    .bg-nav-initial{
+        a{
+            font-size: 18px;
+        }
     }
+// navegador bottom //
     .bg-nav-final{
         a{
             font-size: 12px;
@@ -91,9 +83,18 @@ header{
             }
         }
     }
+    .collapse-final{
+        display: none;
+    }
 }
 @media (max-width: 425px){
+
+// configuracion header // 
+    header{
+        background-image: none;
+    }
     
+// configuracion navbar // 
     .collapse-final{
         display: none;
     }
@@ -114,13 +115,18 @@ header{
     }   
 }
 @media (max-width: 375px){
- 
+
+// configuracion header // 
+    header{
+        background-image: none;
+    }
+
+// Configuracion navbar //    
     .collapse-final{
         display: none;
     }
     footer{
         display: none;
-    
     }
     ul{
         display: flex;
@@ -131,10 +137,9 @@ header{
             font-size: 14px;
         }
     }
-  
 }
 
-//hover nav//
+//Efectos sobre navbar//
 nav{
     ul{
         a:hover{
@@ -142,7 +147,8 @@ nav{
         }
     }
 }
-//hover main//
+
+//Transiciones sobre titulos//
 main{
     h2{
         transition: font-weight 2s, font-size 2s;
@@ -154,6 +160,8 @@ main{
         font-size: 24px;
     }
 }
+
+// Efectos sobre botones //
 .btn.btn-primary:hover{
     background-color: $first-color;
     color: $second-color;
@@ -162,3 +170,4 @@ main{
     background-color: $first-color;
     color: $second-color;
 }
+
